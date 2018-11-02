@@ -1,0 +1,12 @@
+Source: ros-kinetic-timed-roslaunch
+Section: misc
+Priority: extra
+Maintainer: Masaru Morita <p595201m@mail.kyutech.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch, ros-kinetic-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-timed-roslaunch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Script to delay the launch of a roslaunch file
