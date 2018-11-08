@@ -2,6 +2,11 @@
 Changelog for package timed_roslaunch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2018-11-09)
+------------------
+* Fix install scripts in CMakeLists
+* Contributors: MoriKen254
+
 0.1.1 (2018-11-02)
 ------------------
 * Modify travis setting.
