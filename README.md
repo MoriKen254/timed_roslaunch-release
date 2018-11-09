@@ -1,3 +1,26 @@
+## timed_roslaunch (kinetic) - 0.1.3-0
+
+The packages in the `timed_roslaunch` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic timed_roslaunch` on `Fri, 09 Nov 2018 14:16:20 -0000`
+
+The `timed_roslaunch` package was released.
+
+Version of package(s) in repository `timed_roslaunch`:
+
+- upstream repository: https://github.com/MoriKen254/timed_roslaunch.git
+- release repository: https://github.com/MoriKen254/timed_roslaunch-release.git
+- rosdistro version: `0.1.2-0`
+- old version: `0.1.2-0`
+- new version: `0.1.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.8`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## timed_roslaunch (kinetic) - 0.1.2-0
 
 The packages in the `timed_roslaunch` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic timed_roslaunch --edit` on `Thu, 08 Nov 2018 17:14:37 -0000`
