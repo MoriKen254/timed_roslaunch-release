@@ -2,20 +2,15 @@
 Changelog for package timed_roslaunch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.3 (2018-11-09)
+0.1.1 (2020-04-22)
 ------------------
-* Merge pull request `#14 <https://github.com/MoriKen254/timed_roslaunch/issues/14>`_ from MoriKen254/mk/mod-cmake-kinetic
-  Modify CMakeLists for launch and test dir install
-* Modify CMakeLists for launch and test dir install
-* Contributors: Mori, MoriKen254
-
-0.1.2 (2018-11-09)
-------------------
+* Merge pull request `#16 <https://github.com/MoriKen254/timed_roslaunch/issues/16>`_ from v4hn/patch-1
+  make sure to handle spaces in parameters
+* make sure to handle spaces in parameters
+  `"$@"` is a special sequence expanded to a list of *quoted* arguments
+  Leaving this out might result in arguments split into multiple smaller arguments at this point
 * Fix install scripts in CMakeLists
-* Contributors: MoriKen254
-
-0.1.1 (2018-11-02)
-------------------
+* Modify travis setting
 * Modify travis setting.
 * Fix timed_roslaunch to add default values
 * Rename exmample file
@@ -84,4 +79,4 @@ Changelog for package timed_roslaunch
 * [add] added actual scripts
 * Update .gitignore
 * Initial commit
-* Contributors: Doi Yusuke, Masaru Morita, MoriKen254
+* Contributors: Doi Yusuke, Masaru Morita, Michael Görner, Mori, MoriKen254
