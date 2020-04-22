@@ -1,0 +1,12 @@
+Source: ros-melodic-timed-roslaunch
+Section: misc
+Priority: optional
+Maintainer: Masaru Morita <p595201m@mail.kyutech.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch, ros-melodic-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-timed-roslaunch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Script to delay the launch of a roslaunch file
